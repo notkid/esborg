@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    name: mydb
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.108:3306/auth
+    username: root
+    password: jRa4DatfNM7g2
+  thymeleaf:
+    cache: false
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    joda-date-time-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+
+server:
+  port: 8818
+
+swan:
+  address: http://localhost:8080
+
+prometheus:
+  address: http://localhost:9090
+
+config:
+  scope:
+    time: 300
+
+logging:
+  config:
+    src:
+      main:
+        resources: logback.xml
