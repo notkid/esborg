@@ -14,9 +14,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan
-public class BorgApplaction {
+public class BorgApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BorgApplaction.class, args);
+        SpringApplication.run(BorgApplication.class, args);
     }
 }

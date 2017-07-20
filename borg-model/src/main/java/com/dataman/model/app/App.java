@@ -1,4 +1,4 @@
-package com.dataman.moudel.app;
+package com.dataman.model.app;
 
 /**
  * @author likai

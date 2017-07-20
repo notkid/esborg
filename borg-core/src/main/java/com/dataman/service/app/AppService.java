@@ -1,6 +1,6 @@
 package com.dataman.service.app;
 
-import com.dataman.moudel.app.App;
+import com.dataman.model.app.App;
 import org.springframework.stereotype.Service;
 
 

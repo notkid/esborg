@@ -1,11 +1,10 @@
 package com.dataman.service.app;
 
 import com.dataman.mapper.app.AccountsMapper;
-import com.dataman.moudel.app.Accounts;
+import com.dataman.model.app.Accounts;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
 import java.util.List;
 
 /**

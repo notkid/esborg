@@ -1,7 +1,7 @@
 package com.dataman.controller.app;
 
 import com.dataman.controller.base.BaseController;
-import com.dataman.moudel.app.App;
+import com.dataman.model.app.App;
 import com.dataman.service.app.AppService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

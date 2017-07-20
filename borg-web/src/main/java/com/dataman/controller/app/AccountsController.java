@@ -1,6 +1,6 @@
 package com.dataman.controller.app;
 
-import com.dataman.moudel.app.Accounts;
+import com.dataman.model.app.Accounts;
 import com.dataman.service.app.AccountsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

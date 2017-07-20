@@ -1,6 +1,6 @@
 package com.dataman.mapper.app;
 
-import com.dataman.moudel.app.Accounts;
+import com.dataman.model.app.Accounts;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
 
